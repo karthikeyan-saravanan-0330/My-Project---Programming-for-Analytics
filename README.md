@@ -24,10 +24,11 @@
     - *https://www.api-football.com/documentation-v3*
 
 #### Analysis Plan
-- *The performance of a team changes with respect to where they are playing(home/away). Compare the goals of two different teams in their respective home stadiums.*
-- *Player performance for a club vs his country. Number goals scored by a player is taken as a metric for player performance*
+- *Dynamically import data from the website 'api-football' using API key provided and the following analysis could be done using python libraries like matplotlib and seaborn*
+- *Compare the wins and losses of two different teams in their respective home stadiums. generate two graphs one for each team showing wins and losses in their home*
+- *Player performance for a club vs his country. Number goals scored by a player is taken as a metric for player performance. Average number of goals of a player while he is in club vs country*
 - *Number of matches won by the team in which the top scorer/ top assist is present. Get the data of top 10 score/assist player and compare them with standings of the team in that league*
-- *Performance of player before and after transfer*
+- *Performance of player before and after transfer. Draw graph showing average number of goals made by player before transfer and after transfer*
 - *Age vs goals scored for a specific player/league*
 ##### Justification
    *The chosen data contains all the parameters (teams, players, leagues, fixtures, game statistics, past records, player transfer details) that are considered for this analysis*
