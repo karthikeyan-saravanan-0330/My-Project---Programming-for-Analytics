@@ -11,7 +11,7 @@
 
 ## Project Title
 
-- **Data Analysis and Visualization of games and players in Soccer**
+**Analysis of effects Soccer matches on the inflow of flights to the match location**
 
 --- 
 
@@ -21,18 +21,20 @@
 
 #### Data Sources
 - *970+ football leagues & cups. Live score (updated every 15s), live & pre-match odds, events, line-ups, coaches, players, top scorers, standings, statistics, transfers, predictions*
-    - *https://www.api-football.com/documentation-v3*
-
+    https://www.api-football.com/documentation-v3
+- *The aviationstack API was built to provide a simple way of accessing global aviation data for real-time and historical flights as well as allow customers to tap into an extensive data set of airline routes and other up-to-date aviation-related information. Requests to the REST API are made using a straightforward HTTP GET URL structure and responses are provided in lightweight JSON format*
+    https://aviationstack.com/documentation
 #### Analysis Plan
-- *Dynamically import data from the website 'api-football' using API key provided and the following analysis could be done using python libraries like matplotlib and seaborn*
-- *Compare the wins and losses of two different teams in their respective home stadiums. generate two graphs one for each team showing wins and losses in their home*
-- *Player performance for a club vs his country. Number goals scored by a player is taken as a metric for player performance. Average number of goals of a player while he is in club vs country*
-- *Number of matches won by the team in which the top scorer/ top assist is present. Get the data of top 10 score/assist player and compare them with standings of the team in that league*
-- *Performance of player before and after transfer. Draw graph showing average number of goals made by player before transfer and after transfer*
-- *Age vs goals scored for a specific player/league*
-##### Justification
-   *The chosen data contains all the parameters (teams, players, leagues, fixtures, game statistics, past records, player transfer details) that are considered for this analysis*
+- *Dynamically import data from the website 'api-football' using API key with endpoints being the dates of the match when league, competing teams are provided as parameters*
+- *Using the date and location of the matches as parameters import data from aviationstack with endpoints as the number of flights during those days*
+- **Determine change in the traffic of flights due to soccer match**
+     - *The data is visualized with time on X- axis and the number of flights on Y- axis. This provides the effect of soccer match on flight traffic quantitatively*
+     - *This graph over a duration can be compared for two different countries. For example, matches between England and Spain over a period which happened in either England or Spain are compared to determine which location gives more air traffic*
+     - *Compare the airlines visually to determine which airlines have maximum change in the traffic due to a soccer match*
+     - *Visualize the change of average delay of the flights due to soccer match and determine which airline has the least or highest delay*
+    - *Compare match attendance (api-football) with incoming flight data(aviationstack) to identify the proportion of foreign attendees*
+#### Justification
+   *The chosen data contains all the parameters that are considered for this analysis*
 
 #### Motivation
-- *Considering that Soccer is followed by millions of people across the globe, huge money is involved and is constantly evolving, with new technologies, tactics, and strategies emerging all the time, it seemed appropriate to provide analytics for soccer*
-
+*Considering that flight delay is most studied field in Airline operations and that Soccer is a sport watched by millions of people not only on Television but also visiting the stadium, the effects of the sport on average delay and surge of the demand to book tickets seemed really interesting*
