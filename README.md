@@ -70,7 +70,7 @@ air transport network or even economy of a country. This is done by taking two t
 
 ## Explanation of the Code
 
-The code, `IE555_vkunapar_project.py`, begins by importing necessary Python packages:
+The code, `IE555_vkunapar_project.ipynb`, begins by importing necessary Python packages:
 ```
 
 import matplotlib.pyplot as plt
@@ -470,7 +470,7 @@ m.save('map_soccer_matches_airline_routes.html')
 
 3. Open Anaconda prompt window.
 
-2. Change directories to where `IE555_vkunapar_project.py` is saved.
+2. Change directories to where `IE555_vkunapar_project.ipynb` is saved.
 
 3. Type the following command:
 	```
