@@ -482,18 +482,18 @@ m.save('map_soccer_matches_airline_routes.html')
 
 ## Results from your Analysis
 
-- ![Image of Plot](Graph_1.png)
+- ![Image of Plot](Graph_1.png)<br />
 We can see average daily flights as dotted lines and number of flights between  a random home team and the away teams as dots. For most of the matches
 number of flights is higher than average. This shows there is a correlation between the match days and flight inflow to a city
-- ![Image of Plot](Graph_2.png)
+- ![Image of Plot](Graph_2.png)<br />
 For different Airlines on different match days the effect of matches on Airline flights can be seen. Here visually any correaltion could not be found
-- ![Image of Plot](Graph_3.png)
+- ![Image of Plot](Graph_3.png)<br />
 The correlation for all the match days between average daily flights and the number of flights is shown
-- ![Image of Plot](Graph_4.png)
+- ![Image of Plot](Graph_4.png)<br />
 In this bar graph we can see that Buducnost podgorica is the team to whom the number of flights is the highest
-- ![Image of Plot](Graph_5.png)
+- ![Image of Plot](Graph_5.png)<br />
 A visually pleasing geographical map of where matchse are held and the flights between thise cities and match dates and number of flights
-- ![Image of Plot](Correlation_matrix.png)
+- ![Image of Plot](Correlation_matrix.png)<br />
 We can see a high correlation betweeen Average daily flights and Number of flights during the match day as is apparent from the above correlation matrix
 
 
